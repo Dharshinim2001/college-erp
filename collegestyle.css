@@ -1,0 +1,149 @@
+*{
+    padding: o;
+    margin: 0;    
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*
+.header
+{
+    border: 1px solid red;
+    
+    margin-top: 2% ;
+}
+
+#logo1{
+    line-height: 100px;
+
+    width: 120px;
+    padding-left: 20px;
+    
+
+     margin-right: 10px;
+}
+
+.clgename{
+    
+    border:1px solid red;
+    
+    color: white;
+    font-size: 35px;
+    float: right;
+    margin-right: 50px;
+
+    
+    
+}
+.navbar ul{
+    float: right;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+}
+
+.navbar ul li a{
+text-decoration: none;
+color: white;
+}
+*/
+
+a, a:hover{
+    text-decoration: none;
+
+}
+
+nav{
+    background:blue;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img{
+    width:120px;
+    margin-right: 70px;
+    margin-left: 60px;
+    border-radius: 50%;
+    
+}
+
+nav a{
+    color: #fff;
+}
+
+nav a:hover{
+    color: #ef4b3f;
+}
+
+.logo{
+    flex: 1;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+ .logo a:hover{
+    color: #fff;
+ }
+
+ .menu
+ {
+    display: flex;
+    align-items: center;
+    list-style: none;
+ }
+
+.menu li{
+    padding: 15px 10px;
+    font-size: 20px;
+
+}
+
+.slider img{
+width: 100%;
+
+}
+
+
+
+
+.toggle{
+    font-size: 30px;
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    nav{
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+    }
+
+    .menu{
+        margin-top: 15px;
+        display: none;
+    
+    }
+
+    .menu.active, .toggle{
+        display: block;
+    }
+.toggle{
+    position: absolute;
+    top:15px;
+    right:20px;
+}
+
+}
+
+
